@@ -1,0 +1,33 @@
+/* div {
+    background-color: blue;
+}
+
+h1 {
+    background: red;
+}
+
+h1 {
+    background-color: green;
+}
+
+p {
+    color: blue;
+} */
+
+/* 
+h1 {
+    background-color: red;
+} */
+
+/* class target =>> using dot . */
+.styleHeading {
+    background-color: blue;
+    color: white;
+
+}
+
+/* id target ===> hash # */
+#Uheading {
+    background-color: red;
+    color: pink;
+}

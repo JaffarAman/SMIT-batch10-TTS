@@ -1,0 +1,48 @@
+/* h1 {
+    background: red;
+}
+ */
+
+/* class target  using dot . */
+/* .heading3 {
+    background: green;
+    color: blue;
+} */
+
+
+/* h1 {
+    background-color: red;
+    color: white;
+}
+
+.aboutHeadings {
+    background-color: green;
+} */
+
+
+/* id target using # hash */
+
+/* Universal Selector */
+/* * {
+    color: red;
+    background-color: black;
+    text-align: center;
+} */
+
+
+/* type  Selector */
+h1,
+p {
+    background-color: red;
+}
+
+/* class selector */
+/* .dummyClass{
+
+} */
+
+/* id selector */
+
+/* #dummyID{
+
+} */

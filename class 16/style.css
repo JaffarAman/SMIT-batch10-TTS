@@ -1,0 +1,83 @@
+a {
+    text-decoration: none;
+}
+
+.heading1 {
+    font-family: monospace;
+    color: red;
+    background-color: black;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    /* text-decoration: line-through; */
+    /* letter-spacing: 2rem; */
+    /* word-spacing: 3rem; */
+    text-align: center;
+    /* text-shadow: 5px 0px 10px white ; */
+}
+
+.heading1::first-letter {
+    color: blue;
+    font-size: 50px;
+    font-style: normal;
+}
+
+/* .heading1 span{
+    color: green;
+} */
+
+.para1 {
+    line-height: 2rem;
+    text-align: justify;
+}
+
+/* .para1:last-child {
+    color: red;
+} */
+
+/* .googleLink {
+    color: red;
+} */
+
+/* .googleLink:hover {
+    text-decoration: underline;
+    background-color: black;
+} */
+
+/* .googleLink:active {
+    color: blue;
+} */
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: hotpink;
+}
+
+.userName:focus {
+    background-color: black;
+    color: white;
+}
+
+
+.box {
+    background-color: red;
+    /* width: 500px;
+    height: 300px; */
+    text-align: center;
+
+    /* max-width: ; */
+    /* min-width: ; */
+    /* max-width: 500px; */
+    /* max-width: 500px; */
+    /* min-width: 500px; */
+
+    max-width: 500px;
+    min-width: 300px;
+    height: 300px;
+    
+
+}

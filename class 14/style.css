@@ -1,0 +1,102 @@
+/* h1 {
+    background-color: red;
+} */
+
+
+/* * {
+    background-color: black;
+    color: white;
+} */
+
+/* h1,
+p,
+b {
+    color: red;
+    background-color: black;
+} */
+
+
+/* .heading {
+    color: red;
+} */
+
+/* .colorRed {
+    color: red;
+} */
+
+/* h1.colorRed,
+ {
+    color: red;
+} */
+
+/* 
+p {
+    color: red;
+} */
+
+
+/* child selector */
+/* .pappa>p {
+    color: red;
+} */
+
+/* Descendant Selector */
+/* .pappa p {
+    color: red;
+} */
+
+
+
+.absouleLinks>a {
+    color: green;
+}
+
+.relativesLinks>a {
+    color: yellow;
+}
+
+.linksContainer a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* #hid {
+    color: aqua;
+    text-align: right;
+}
+
+.newHeading {
+    color: purple;
+    background-color: black;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+* {
+    color: green;
+} */
+
+h1 {
+    /* 0 255 */
+    /* color: rgb(78, 209, 108); */
+    /* color: #4ED16C;
+    color: rgb(202, 141, 177);
+    color: #ca8db1; */
+    /* color: rgba(0, 0, 0, 0.5); */
+
+}
+
+button {
+    background-color: #1a73e8;
+    color: white;
+    color: hsl(270, 100%, 40%);
+    /* 0 to 1 */
+    /* opacity: 0.1; */
+}
