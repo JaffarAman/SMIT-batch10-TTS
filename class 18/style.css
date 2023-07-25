@@ -1,0 +1,127 @@
+/* h1 {
+    background-color: red;
+} */
+
+
+
+
+/* .box1 {
+    background-color: red;
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+
+}
+
+
+
+.box2 {
+    background-color: green;
+    width: 250px;
+    height: 250px;
+    display: inline;
+} */
+
+/* .inline1 {
+    background-color: red;
+    width: 500px;
+    display: inline-block;
+    margin: 100px 50px;
+    display: block;
+    display: none;
+} */
+
+
+
+.box3 {
+    background-color: blue;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    /* display: none; */
+    /* visibility: collapse; */
+    /* border: 20px solid transparent;
+    border-image: url("./images/borderimage.jpg") 100 round;
+    padding: 50px; */
+    /* border: 1px solid black; */
+    /* transition: all 0.6s ease; */
+    /* border: 1px solid red;
+    border-radius: 10px 10px 10px 10px; */
+    overflow: hidden;
+
+}
+
+.box3 img {
+    /* border-radius: 25%; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* .box3:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: grey;
+} */
+
+
+
+.list {
+    /* list-style: none; */
+    list-style-type: upper-roman;
+    border: 1px solid red;
+    list-style-position: inside;
+    /* list-style: ; */
+    /* list-style-position: ; */
+    /* list-style-type: ; */
+    /* list-style-image: url("./images/borderimage.jpg"); */
+}
+
+.list li {
+    border: 1px solid #000;
+    margin: 20px 0;
+}
+
+
+.userTable {
+    border: 1px solid black;
+    width: 100%;
+
+    /* border-collapse: collapse; */
+    border-spacing: 20px;
+    empty-cells: hide;
+}
+
+.userTable tr {
+    border: 1px solid red;
+    /* padding: 20px;
+    margin: 20px; */
+    /* background-color: red; */
+    /* background-color: blue; */
+
+}
+
+
+.userTable thead {
+    background-color: grey;
+    color: black;
+}
+
+.userTable tbody {
+    background-color: lightskyblue;
+}
+
+.userTable td,
+.userTable th {
+    border: 1px solid red;
+    padding: 20px;
+    /* background-color: red; */
+}
+
+
+.userTable tbody tr:hover {
+    background-color: lightblue;
+}
+
+.userTable tbody td:hover {
+    background-color: aqua;
+}
