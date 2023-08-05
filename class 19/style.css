@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: #ef32d9;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #89fffd, #ef32d9);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #89fffd, #ef32d9);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-top: 100px;
+}
+
+
+
+.formContainer,
+.signupContainer {
+    width: 40%;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.formHeading {
+    text-align: center;
+}
+
+
+.inputFeilds input {
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin: 20px 0;
+    border-radius: 8px;
+    border: none;
+    padding: 0 30px;
+    background-color: #e7e7e7;
+    outline: none;
+}
+
+.formInputs button {
+    background-color: #c44c8a;
+    display: block;
+    margin: 20px 0;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+
+.formInputs label {
+    color: gray;
+}
+
+
+
+.loginOptions {
+    text-align: center;
+}
+
+.loginOptions p {
+    text-align: center;
+    color: gray;
+}
+
+.loginOptions button {
+    margin: 10px;
+    border: 1px solid grey;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.fbBtn {
+    color: blue;
+}
+
+.googleBtn {
+    color: red;
+}
+
+.alreadSignupBtn {
+    text-align: center;
+    margin-top: 50px;
+    color: gray;
+}
+
+.alreadSignupBtn p a {
+    text-decoration: underline;
+    /* cursor: pointer; */
+    color: gray;
+}
+
+/* 
+.loginOptions button:nth-of-type(2){
+    background-color: red;
+} */
+
+
+
+/* ///sign up */
+
+
+.signupContainer .signupHeading {
+    text-align: center;
+}
+
+
+.signForm input {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 0 30px;
+    margin: 20px 0;
+    border-radius: 8px;
+    border: none;
+    background-color: #e7e7e7;
+    outline: none;
+}
+
+.signForm button {
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #ef32d9;
+    border: none;
+    cursor: pointer;
+}
+
+/* .nameInputFields input {
+    display: inline-block;
+    width: 49%;
+
+} */
