@@ -1,0 +1,13 @@
+.myBgColor {
+    background-color: red;
+}
+
+.myBtn {
+    width: 250px;
+    height: 200px;
+    background-color: yellow !important;
+}
+
+/* .myBGColor22 {
+    background-color: blue !important;
+} */
