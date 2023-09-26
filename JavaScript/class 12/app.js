@@ -90,8 +90,8 @@
 
 // }
 
-
 var cities = ["karachi", "lahore", "multan", "delhi", "nepal" ]
+
 
 console.log(cities.length)
 // console.log(cities[0])
