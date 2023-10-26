@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    border: 1px solid red;
+    width: 50%;
+    margin: 0 auto;
+}
+.container input{
+    width: 100%;
+    pointer-events: none;
+}
+.buttonContainer {
+    width: 100%;
+
+}
+.buttonContainer table{
+    width: 100%;
+}
+
+.buttonContainer table td{
+    text-align: center;
+}
