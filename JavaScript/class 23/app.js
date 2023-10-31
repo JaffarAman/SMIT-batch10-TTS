@@ -23,6 +23,10 @@
 //     console.log(ageInput.value)
 
 
+// function foo() {
+
+//     console.log("hello world")
+
 
 // }
 
