@@ -13,8 +13,27 @@
     <!-- <button onclick="foo()">CLICK!</button> -->
     <button onclick="addition(500 , 300)">ADD</button>
     <button onmouseover="addition(500 , 300)">ADD</button>
-
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-app.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+          apiKey: "AIzaSyBWXTyCrMMpDi32SxdgYo4-9N9hPr6ErAM",
+          authDomain: "smit-project-92ffb.firebaseapp.com",
+          projectId: "smit-project-92ffb",
+          storageBucket: "smit-project-92ffb.appspot.com",
+          messagingSenderId: "1019873346051",
+          appId: "1:1019873346051:web:ea24cc20dbb750afde4436"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        console.log(app)
+      </script>
+    <script src="app.js"></script>
 </body>
-<script src="app.js"></script>
 
 </html>
