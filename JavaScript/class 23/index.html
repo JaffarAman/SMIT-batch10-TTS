@@ -5,35 +5,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <h1>Calculator</h1>
+    <!-- <button onclick="foo(50 , 100)">CLICK!</button> -->
+    <!-- <input type="text" id="username" placeholder="Enter Your Name...">
+    <br>
+    <br>
+    <button onclick="getInputVale()">GET VALUE</button> -->
+    <!-- <input type="text" value="" id="firstName" placeholder="FIRST NAME"> <br>
+    <br>
+    <input type="text" id="lastName" placeholder="LAST NAME">
+    <br><br>
+    <input type="text" id="age" placeholder="Age">
+    <br><br>
+    <button onclick="getFormValues()">GET FORMS VALUES</button>
+    <button onclick="setFormValues()">SET FORMS VALUES</button> -->
 
 
-    <!-- <button onclick="foo()">CLICK!</button> -->
-    <button onclick="addition(500 , 300)">ADD</button>
-    <button onmouseover="addition(500 , 300)">ADD</button>
-    <script type="module">
-        // Import the functions you need from the SDKs you need
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-app.js";
-        // TODO: Add SDKs for Firebase products that you want to use
-        // https://firebase.google.com/docs/web/setup#available-libraries
-      
-        // Your web app's Firebase configuration
-        const firebaseConfig = {
-          apiKey: "AIzaSyBWXTyCrMMpDi32SxdgYo4-9N9hPr6ErAM",
-          authDomain: "smit-project-92ffb.firebaseapp.com",
-          projectId: "smit-project-92ffb",
-          storageBucket: "smit-project-92ffb.appspot.com",
-          messagingSenderId: "1019873346051",
-          appId: "1:1019873346051:web:ea24cc20dbb750afde4436"
-        };
-      
-        // Initialize Firebase
-        const app = initializeApp(firebaseConfig);
-        console.log(app)
-      </script>
-    <script src="app.js"></script>
+    <!-- <input type="text" id="inputValue" placeholder="Enter Number"> -->
+    <!-- <button onclick="calc()">CALCULATION</button> -->
+
+
+    <div class="container">
+
+        <div class="inputContainer">
+            <input type="text" id="input" placeholder="enter number">
+        </div>
+
+        <div class="buttonContainer">
+            <table border="1">
+                <tr>
+                    <td onclick="addValue( '+' )">+</td>
+                    <td onclick="addValue('-')">-</td>
+                    <td onclick="addValue('*')">*</td>
+                    <td onclick="addValue('/')">/</td>
+                </tr>
+                <tr>
+                    <td onclick="addValue(7)">7</td>
+                    <td onclick="addValue(8)">8</td>
+                    <td onclick="addValue(9)">9</td>
+                    <td rowspan="4" onclick="result()"> =</td>
+
+                </tr>
+                <tr>
+                    <td onclick="addValue(4)">4</td>
+                    <td onclick="addValue(5)">5</td>
+                    <td onclick="addValue(6)">6</td>
+                </tr>
+                <tr>
+                    <td onclick="addValue(1)">1</td>
+                    <td onclick="addValue(2)">2</td>
+                    <td onclick="addValue(3)">3</td>
+                </tr>
+                <tr>
+                    <td onclick="addValue(0)">0</td>
+                    <td onclick="clearValue()">C</td>
+                    <td onclick="clearAll()">AC</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+
 </body>
 
 </html>
