@@ -62,3 +62,4 @@ var pappa = document.childNodes[1].childNodes[2].childNodes[1]
 
 var lstChild = pappa.lastChild
 console.log(lstChild.nextSibling, "lstChild")
+console.log(lstChild.nextSibling, "lstChild")
