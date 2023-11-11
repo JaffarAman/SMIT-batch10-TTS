@@ -30,6 +30,12 @@
 
 // }
 
+// fetch("https://api.github.com/users/Rizwanjamal")
+//     .then((data) => data.json())
+//     .then((result) => console.log(result))
+//     .catch((err) => {
+//         console.error('err :', err)
+//     })
 
 // function setFormValues() {
 //     var firstName = document.getElementById("firstName")
