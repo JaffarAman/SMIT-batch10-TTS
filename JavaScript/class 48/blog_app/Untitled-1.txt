@@ -1,0 +1,16 @@
+node js install   == >first time
+
+open cmd
+node -v  => check version
+npm -v => check version
+
+install firebase 
+npm install --global firebase-tools   ==>first time
+
+cmd => run as admin
+firebase login   => first time 
+
+firebase init
+
+firebase deploy
+
