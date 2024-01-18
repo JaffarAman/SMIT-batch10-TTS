@@ -1,0 +1,16 @@
+var let const ==> V.imp
+hoisting
+obj destructuring  ==> V.imp
+array destructuring ==> V.imp
+spread opt aka three dots  ==> V.imp 
+Arrow functions
+Array Methods => findIndex,find ,map ,filter, forEach
+rest opt
+rest parameter
+Promises
+try - catch
+fetch
+async await
+
+
+
