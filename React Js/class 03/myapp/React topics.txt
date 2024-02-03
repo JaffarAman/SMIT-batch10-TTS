@@ -1,0 +1,21 @@
+React folder str
+React Project Run
+Fragment
+Real Dom VS Virtal Dom
+Components
+Jsx
+styling
+events ==>>  onclick , onmouseover , 
+states
+
+
+
+remaining
+states
+props
+
+input field
+toggle 
+conditional rendering
+basic form validation
+props dealing
