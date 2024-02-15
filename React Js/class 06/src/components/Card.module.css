@@ -1,0 +1,19 @@
+.productCardWrapper {
+  border: 1px solid red;
+  background-color: green;
+  margin: 20px 0;
+}
+
+.productCardWrapper2 {
+  border: 1px solid red;
+  background-color: red;
+  margin: 20px 0;
+}
+
+.productImage {
+  width: 100%;
+}
+
+.productPrice {
+  color: red;
+}
