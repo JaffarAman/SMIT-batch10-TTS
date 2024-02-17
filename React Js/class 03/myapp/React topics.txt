@@ -13,22 +13,37 @@ input field
 
 toggle 
 conditional rendering
-props dealing
-basic form validation
-
+props dealing ==>
+list 
 
 
 useEffect
 axios
-child to parent data
-react hook form
+
+
+
+basic form validation
+
+
+
+
+weather app
+github user finder app
+
+
 React router dom
 private or public routes
+
+CRUD APP = > using Reactjs with firebase
+
+
+child to parent data
+react hook form
+
 
 firebase
 
 
-CRUD APP = > using Reactjs with firebase
 Redux Toolkit
 Materail UI
 Tailwind CSS
