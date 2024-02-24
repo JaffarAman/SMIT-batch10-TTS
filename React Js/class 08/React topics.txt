@@ -1,0 +1,63 @@
+React folder str
+React Project Run
+Fragment
+Real Dom VS Virtal Dom
+Components
+Jsx
+styling
+events ==>>  onclick , onmouseover , 
+states
+props
+input field
+
+
+toggle 
+conditional rendering
+props dealing ==>
+list 
+
+
+useEffect
+axios
+
+
+
+basic form validation
+
+
+
+
+weather app
+github user finder app
+
+
+React router dom
+private or public routes
+
+CRUD APP = > using Reactjs with firebase
+
+
+child to parent data
+react hook form
+
+
+firebase
+
+
+Redux Toolkit
+Materail UI
+Tailwind CSS
+
+
+
+
+
+
+
+
+
+
+
+
+
+

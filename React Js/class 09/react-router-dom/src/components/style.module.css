@@ -1,0 +1,16 @@
+.navbarWrappper {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  background-color: lightcyan;
+  padding: 15px;
+}
+
+.activeLink {
+  background-color: blue;
+  color: white;
+}
+
+.normalLink {
+  color: red;
+}
