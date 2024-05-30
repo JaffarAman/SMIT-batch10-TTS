@@ -4,6 +4,8 @@ import { Link, useNavigate } from "react-router-dom";
 import { BASE_URL } from "../config";
 import { useDispatch, useSelector } from "react-redux";
 import { addCounter } from "../store/slices/counter/counterSlice";
+import { loginAction } from "../store/slices/auth/authActions";
+// import { loginAction } from "../store/slices/auth/autSlice";
 
 const Login = () => {
   const [email, setemail] = useState("");
@@ -14,25 +16,30 @@ const Login = () => {
   console.log("selector", value);
 
   const [isloading, setIsloading] = useState(false);
+
+  const { loading, isError } = useSelector((state) => state.auth);
+  console.log("isError", isError);
   const handlerlogin = async () => {
     console.log(email, password);
     try {
-      setIsloading(true);
+      // setIsloading(true);
       const obj = {
         email,
         password,
       };
-      const response = await axios.post(`${BASE_URL}/login`, obj);
-      setIsloading(false);
+      dispatch(loginAction(obj));
+      // const response = await axios.post(`${BASE_URL}/login`, obj);
+      // setIsloading(false);
 
       // console.log("response", response);
       // localStorage.setItem("token", response.data.token);
       // navigate("/dashboard");
     } catch (error) {
-      setIsloading(false);
+      // setIsloading(false);
       console.log("error", error.message);
     }
   };
+
   return (
     <div>
       <button
@@ -64,9 +71,7 @@ const Login = () => {
 
       <br />
       <br />
-      <button onClick={handlerlogin}>
-        {isloading ? "loading..." : "LOGIn"}
-      </button>
+      <button onClick={handlerlogin}>{loading ? "loading..." : "LOGIn"}</button>
     </div>
   );
 };
